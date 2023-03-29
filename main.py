@@ -65,4 +65,4 @@ api.add_resource(Cast,"/cast/<string:cast>")
 api.add_resource(Title,"/title/<string:title>")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
